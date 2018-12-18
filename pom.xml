@@ -8,7 +8,7 @@
     <artifactId>com.lam.farm</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>animal_farm</name>
-    <description>A friendly animal far</description>
+    <description>A friendly animal farm</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
