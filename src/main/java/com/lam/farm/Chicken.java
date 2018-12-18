@@ -11,7 +11,7 @@ public class Chicken extends Bird implements IBroiler{
     private boolean broiler;
 
     /**
-     *  Method signature  for checking whether this object is broiler.
+     *  Method   for checking whether this object is broiler.
      * @return the result of the broiler checking as a boolean.
      */
     public boolean isBroiler() {
@@ -19,7 +19,7 @@ public class Chicken extends Bird implements IBroiler{
     }
 
     /**
-     * This method signature is for setting the broiler property of the animal.
+     * This method  is for setting the broiler property of the animal.
      * @param broiler This is the new value for the property boiler.
      * @return void.
      */

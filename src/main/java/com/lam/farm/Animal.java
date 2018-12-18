@@ -89,15 +89,12 @@ public class Animal implements IAnimalSocial {
     }
 
     private void makeAFriend(IAnimalSocial animal) {
-        synchronized (this) {
             if (!animal.isFriendOf(animal)) {
                 this.friends.add(animal);
                 animal.getFriends().add(this);
                 loggerFriendMade(this.getName(), animal.getName(), this.friends.size(), this.friendsNames());
                 loggerFriendMade(animal.getName(), this.getName(), animal.getFriends().size(), animal.friendsNames());
             }
-            ;
-        }
     }
 
     private static void loggerFriendMade(String name, String otherName, int friendsSize, String friendsNames) {

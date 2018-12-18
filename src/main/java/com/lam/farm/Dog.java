@@ -11,7 +11,7 @@ package com.lam.farm;
     private String type;
 
     /**
-     *  Method signature for getting the type property.
+     *  Method  for getting the type property.
      * @return the type property as a string.
      */
     public String getType() {
@@ -20,7 +20,7 @@ package com.lam.farm;
 
 
     /**
-     *  Method signature for setting the type property.
+     *  Method  for setting the type property.
      * @param type the new type property.
      * @return void.
      */

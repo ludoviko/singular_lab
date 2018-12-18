@@ -13,7 +13,7 @@ public class Bird extends  Animal implements IWings {
     private double wingsLength;
 
     /**
-     *  Method signature for getting the units of measure property.
+     *  Method  for getting the units of measure property.
      * @return the units of measure property as a string.
      */
     public String getUnits() {
@@ -21,7 +21,7 @@ public class Bird extends  Animal implements IWings {
     }
 
     /**
-     *  Method signature for setting the type property.
+     *  Method  for setting the type property.
      * @param units the new units of measure property.
      * @return void.
      */
@@ -30,7 +30,7 @@ public class Bird extends  Animal implements IWings {
     }
 
     /**
-     *  Method signature for getting the lenght of wings property.
+     *  Method  for getting the lenght of wings property.
      * @return the length property as a double.
      */
     public double getLength() {
@@ -38,7 +38,7 @@ public class Bird extends  Animal implements IWings {
     }
 
     /**
-     *  Method signature for setting the length of wings property.
+     *  Method  for setting the length of wings property.
      * @param length the new ength of wings property.
      * @return void.
      */

@@ -73,7 +73,7 @@ public class AnimalFarmTest {
         chicken2.setFavoriteFood("seeds");
         chicken2.setUnits("meter");
         chicken2.setLength(0.20);
-        // Chicken Little is too young to be broiled.
+        // Chicken Little is too young to be broiler.
         chicken1.setBroiler(false);
 
         allAnimals.add(dog1);
@@ -122,7 +122,7 @@ public class AnimalFarmTest {
     }
 
     @Test
-    public void testSymmetricalFrienship() {
+    public void testSymmetricalFriendship() {
         for (IAnimalSocial animal : allAnimals)  {
             animal.makeFriendsFrom(allAnimals);
         }
