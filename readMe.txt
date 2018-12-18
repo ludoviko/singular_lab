@@ -5,6 +5,8 @@ This is the solution to your exercise.
 
 The exercise looks simple, once I started coding it became complexer and funnier.
 
+For creating the project structure I used a maven archetype.
+
 I made use of interfaces for behaviours and use of concrete classes that implement those.
 
 I followed the specifications when coding. As a change I made sure that each animals keeps at least one friend,
