@@ -8,7 +8,7 @@ The exercise looks simple, once I started coding it became complexer and funnier
 I made use of interfaces for behaviours and use of concrete classes that implement those.
 
 I followed the specifications when coding. As a change I made sure that each animals keeps at least one friend,
-so any of them is not lonely.
+so any of them is not lonely. Of course in the beginnig none has friends.
 
 The launcher program is AnimalFarm, use it to get a feeling of the solution.
 
