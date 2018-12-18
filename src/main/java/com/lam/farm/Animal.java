@@ -19,14 +19,14 @@ public class Animal implements IAnimalSocial {
     private Set<IAnimalSocial> friends;
 
     /**
-     * Animal no argument consructor.
+     * Animal no argument constructor.
      */
     public Animal() {
         this.friends = new HashSet<IAnimalSocial>();
     }
 
     /**
-     * This method signature is for returning the name of the IAnimal.
+     * This method  is for returning the name of the IAnimal.
      * @return String The name of the IAnimal.
      */
     public String getName() {
@@ -34,7 +34,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature is for setting the name of the IAnimal.
+     * This method  is for setting the name of the IAnimal.
      * @param name This is the new name.
      * @return void.
      */
@@ -43,7 +43,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature is for returning the favoriteFood of the IAnimal.
+     * This method  is for returning the favoriteFood of the IAnimal.
      * @return String The favoriteFood of the IAnimal.
      */
     public String getFavoriteFood() {
@@ -51,7 +51,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature is for setting the favoriteFood of the IAnimal.
+     * This method  is for setting the favoriteFood of the IAnimal.
      * @param favoriteFood This is the new favoriteFood.
      * @return void.
      */
@@ -67,7 +67,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature is for adding new friends to  IAnimalSocial.
+     * This method  is for adding new friends to  IAnimalSocial.
      * @param allAnimals The animals with whom to make friends.
      * @return void.
      */
@@ -136,7 +136,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature is for getting current friends of this..
+     * This method  is for getting current friends of this..
      * @return A set of IAnimaloSocial.
      */
     public Set<IAnimalSocial> getFriends() {
@@ -198,7 +198,7 @@ public class Animal implements IAnimalSocial {
     }
 
     /**
-     * This method signature returns all friend's namaes as a string separated by coma.
+     * This method  returns all friend's namaes as a string separated by coma.
      * @return all friend's namaes as a string separated by coma..
      */
     public String friendsNames() {
