@@ -6,12 +6,21 @@ import java.util.Set;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
+/**
+ * Class for launching and run animal objects.
+ */
+
 public class AnimalFarm {
     private final static Logger LOGGER = Logger.getLogger("com.lam.farm");
 
-    public AnimalFarm() {
+    private AnimalFarm() {
     }
 
+    /**
+     * Method for running the animal farm data.
+     *
+     * @param args Number of days to live, if not provided this defaults to 1.
+     */
     public final void run(String[] args) {
         int days = 1;
         if (args != null && args.length == 1 ) {
