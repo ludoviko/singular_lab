@@ -41,7 +41,7 @@ public class AnimalFarmTest {
         lassie.setFavoriteFood("Strict vegetarian");
 
         Dog milu = new Dog();
-        milu.setName("Fox terrier");
+        milu.setName("Milu");
         milu.setType("Fox terrier");
         // Milu does not eat other animals at all.
         milu.setFavoriteFood("Strict vegetarian");
