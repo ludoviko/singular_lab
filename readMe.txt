@@ -9,7 +9,7 @@ For creating the project structure I used a maven archetype.
 
 I made use of interfaces for behaviours and use of concrete classes that implement those.
 
-I followed the specifications when coding. As a change I made sure that each animals keeps at least one friend,
+I followed the specifications when coding. As a change I made sure that each animal keeps at least one friend,
 so any of them is not lonely. Of course, in the beginning none has friends.
 
 The launcher program is AnimalFarm, use it to get a feeling of the solution.
